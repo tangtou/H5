@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		 <link rel="stylesheet" href="../dist/css/swiper.css">
+    	<link rel="stylesheet" href="../dist/animate.min.css">
+		 <style>
+		 	*{
+		 		margin: 0;
+		 		padding: 0;
+		 	}
+		 	.swiper-container{
+		 		margin-top: 75px;
+		 		width: 320px;
+		 		height: 480px;
+		 		background: #0d7fb5;
+		 		opacity: 0.9;
+		 		position: absolute;
+		 		left: 15px;
+
+		 	}
+		 	.swiper-slide {
+		 		position: relative;
+		 	}
+		 	.a2{
+		 		width: 310px;
+		 		position: absolute;
+		 		top: 20px;
+		 		display: inline-block;
+		 		left: 10px;
+		 	}
+		 	.a1{
+		 		width: 300px;
+		 		position: absolute;
+		 		top: 100px;
+		 	}
+		 	.b1{
+		 		width: 310px;
+		 		position: absolute;
+		 		top: 40px;
+		 	}
+		 	.b2{
+		 		width: 310px;
+		 		position: absolute;
+		 		top: 120px;
+		 	}
+		 	.b4{
+		 		width: 290px;
+		 		position: absolute;
+		 		left: 10px;
+		 		top: 240px;
+		 	}
+		 	.b3{
+		 		/*width: 290px;*/
+		 		position: absolute;
+		 		left: 190px;
+		 		top: 300px;
+		 	}
+		 	.d1{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 30px;
+		 	}
+		 	.d2{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 80px;
+		 		left: 6px;
+		 	}
+		 	.dd{
+		 		width: 320px;
+		 		height: 1px;
+		 		background: white;
+		 		position: absolute;
+		 		top: 110px;
+		 	}
+		 	.d3{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 150px;
+
+		 	}
+		 	.d5{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 310px;
+		 		left: 5px;
+		 	}
+		 	.d4{
+		 		position: absolute;
+		 		top: 230px;
+		 		left: 122px;
+		 	}
+		 	.c1{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 20px;
+		 	}
+		 	.c2{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 110px;
+		 	}
+		 	.c3{
+		 		width: 320px;
+		 		position: absolute;
+		 		top: 155px;
+		 	}
+		 	#box{
+		 		width: 350px;
+		 		height: 620px;
+		 		border: 1px gray solid;
+		 		position: relative;
+		 		left: 50%;
+		 		margin-left: -175px;
+		 		top: 100px;
+		 		background: lightgray;
+		 		border-radius: 30px;
+		 	}
+		 	#small1{
+		 		width: 80px;
+		 		position: absolute;
+		 		background: white;
+		 		height: 7px;
+		 		border-radius: 4px;
+		 		left: 50%;
+		 		margin-left: -40px;
+		 		top: 35px;
+		 	}
+		 	#small2{
+		 		width: 50px;
+		 		height: 50px;
+		 		background: white;
+		 		border-radius: 50%;
+		 		position: absolute;
+		 		left: 50%;
+		 		margin-left: -25px;
+		 		bottom: 6px;
+		 	}
+		 	.swiper-pagination span{
+		 		width: 5px;
+		 		height: 5px;
+		 		display: inline-block;
+		 		background: white;
+		 	}
+		 </style>
+
+	</head>
+	<body>
+	<div id="box">
+		<div id="small1"></div>
+		<div class="swiper-container">
+	        <div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img class="d1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" src="img1/d1.png" alt="">
+					<img class="d2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.7s" src="img1/d2.jpg" alt="">
+					<hr class="dd"/>
+					<img class="d3 ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s" src="img1/d3.png" alt="">
+					<img class="d4 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2s" src="img1/d4.png" alt="">
+					<img class="d5 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s" src="img1/d5.png" alt="">
+				</div>
+	            <div class="swiper-slide">
+	            	<img class="c1 ani" swiper-animate-effect="bounce" swiper-animate-duration="0.5s" src="img1/c1.png" alt="">
+	            	<img class="c2 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" src="img1/c2.png" swiper-animate-delay="o.5s" alt="">
+	            	<img class="c3 ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="0.5s" src="img1/c3.png" swiper-animate-delay="1.2s" alt="">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img class="b1 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" src="img1/b1.png" alt="">
+	            	<img class="b2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s" src="img1/b2.png" alt="">
+	            	<img class="b4 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.4s" swiper-animate-delay="1.4s" src="img1/b4.png" alt="">
+	            	<img class="b3 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.4s" swiper-animate-delay="1.9s" src="img1/b3.png" alt="">
+	            </div>
+	             <div class="swiper-slide">
+	            	<img class="a2 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" src="img1/a2.jpg" alt="">
+	            	<img class="a1 ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.7s" src="img1/a1.jpg" alt="">
+	            </div>
+
+        	</div>
+        	 <div class="swiper-pagination" ></div>
+    	</div>
+    	<div id="small2"></div>
+    </div>	
+	</body>
+		<script src="../dist/js/swiper.min.js"></script>
+    	<script src="../dist/swiper.animate.min.js"></script>
+		<script>
+		var swiper = new Swiper('.swiper-container',{
+			direction:"vertical",
+			// loop: true,
+    		pagination: '.swiper-pagination',
+    		paginationClickable: true,
+    		onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素 
+            swiperAnimate(swiper); //初始化完成开始动画
+        }, 
+          onSlideChangeEnd: function(swiper){ 
+            swiperAnimate(swiper);
+		}
+	});
+			
+		</script>
+</html>
